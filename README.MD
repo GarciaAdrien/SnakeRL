@@ -1,7 +1,7 @@
 #Import des bibliothèques
 pip install -r requirements.txt
 
-Lancement du projet 
+#Lancement du projet 
 py agent.py
 
 La partie graphique de agent.py permet de mettre en évidence les performances de l'agent au fil du temps dans le jeu
