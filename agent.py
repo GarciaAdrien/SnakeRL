@@ -25,11 +25,13 @@ class Agent:
 
     def plot(scores, mean_scores):
         plt.figure(figsize=(10, 5))
-        plt.plot(scores, label='Score', color='blue')
-        plt.plot(mean_scores, label='Mean Score', color='red')
-        plt.title('Snake Game Training Progress')
-        plt.xlabel('Number of Games')
-        plt.ylabel('Score')
+        plt.plot(scores, label='Score', color='blue', linewidth=2)
+        plt.plot(mean_scores, label='Mean Score', color='red', linewidth=2)
+        plt.title('Progression de l\'entraînement du jeu Snake', fontsize=16)
+        plt.xlabel('Nombre de parties', fontsize=14)
+        plt.ylabel('Score', fontsize=14)
+        plt.legend(fontsize=12)
+        plt.grid(True, linestyle='--', alpha=0.7)
         plt.legend()
         plt.grid(True)
         plt.tight_layout()
