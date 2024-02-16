@@ -1,3 +1,5 @@
+![Snake](snake.png)
+
 #Import des bibliothèques
 pip install -r requirements.txt
 
